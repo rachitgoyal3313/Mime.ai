@@ -60,6 +60,11 @@ def get_synonym_in_vocab_spacy(word):
 
     ⚠️ Do not guess. If you are unsure or the match is too weak, return "-1".
     Only return the chosen word or "-1". No explanation.
+    Do not return any additional text like Word not available or something, just return the closest word available in our list, otherwise return -1.
+    
+    EXAMPLES:
+    INPUT: buddy,
+    OUTPUT: friend
     """
 
     headers = {
