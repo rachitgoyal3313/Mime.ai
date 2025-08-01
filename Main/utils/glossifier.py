@@ -76,8 +76,8 @@ def get_synonym_in_vocab_spacy(word):
     }
 
     payload = {
-        # "model": "x-ai/grok-3-mini",
-        "model": "deepseek/deepseek-r1-distill-llama-70b",
+        "model": "x-ai/grok-3-mini",
+        # "model": "deepseek/deepseek-r1-distill-llama-70b",
         "temperature": 0.7,
         "messages": [{"role": "user", "content": prompt}],
         "max_tokens": 6000
